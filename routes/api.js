@@ -1,8 +1,7 @@
 const router = require("express").Router();
-const { model } = require("mongoose");
 const Workout = require("../models/workout");
 
-router.post("/api/workouts", ({ body }, res) => {
+router.post("/workouts", ({ body }, res) => {
   Workout.create(body)
     .then(dbWorkout => {
       res.json(dbWorkout);
@@ -12,7 +11,7 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-router.get("/api/workouts", (req, res) => {
+router.get("/workouts", (req, res) => {
     Workout.find({})
       .then(dbWorkout => {
         res.json(dbWorkout);
@@ -22,7 +21,7 @@ router.get("/api/workouts", (req, res) => {
       });
   });
 
-  router.put("/api/workouts/:id", (req, res) => {
+  router.put("/workouts/:id", (req, res) => {
     Workout.findByIdAndUpdate(params.id, {
         $push: {excercise: body}}, {new: true})
       .then(dbWorkout => {
@@ -33,7 +32,7 @@ router.get("/api/workouts", (req, res) => {
       });
   });
 
-  router.delete("/api/workouts/:id", (req, res) => {
+  router.delete("/workouts/:id", (req, res) => {
     Workout.findByIdAndRemove(params.id, {
         $push: {excercise: body}}, {new: true})
       .then(dbWorkout => {
@@ -44,4 +43,4 @@ router.get("/api/workouts", (req, res) => {
       });
   });
 
-  model.exports = router;
+  module.exports = router;
