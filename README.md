@@ -17,6 +17,8 @@ As a user, I want to be able to view create and track daily workouts. I want to 
   ## Installation
 
   The key tools to making this project work are npm. The user must run “npm init -y” to get the npm data and then install the rpm inquirer packages by running “npm i inquirer”. This will allow the user to access the key packages of node that make this function.
+
+  Or just visit the deployed app and go! 
   
   ## Usage
   
@@ -25,10 +27,6 @@ As a user, I want to be able to view create and track daily workouts. I want to 
   ## Gif 
 
   ![gif]()
-  
-  ## Testing
-
-  Testing is as easy as it sounds. Fork this program, make sure you install the npm packages to your local computer and run! 
   
   ## Support
   
