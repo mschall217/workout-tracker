@@ -16,13 +16,13 @@ As a user, I want to be able to view create and track daily workouts. I want to 
   
   ## Installation
 
-  The key tools to making this project work are npm. The user must run “npm init -y” to get the npm data and then install the rpm inquirer packages by running “npm i inquirer”. This will allow the user to access the key packages of node that make this function.
-
-  Or just visit the deployed app and go! 
+  The key tools to making this project work are npm packages. This website was built using NoSQL aka MongoDB databases. Much different than ones like SQL. this app is fully funcitoning at the deployed link https://boiling-depths-78698.herokuapp.com/
   
+  If forked locally make sure you have MongoDB installed on your computer and run npm i to make sure all the node packages required are available to you. 
+
   ## Usage
   
-  As the description says this can be used by any one making an open source project for GitHub. This program takes an extra step off the developers shoulders.
+  This can be used by anyone and everyone as a simple tracker to keep track of all of ones workouts! Including multiple a day. Keep track of how long you worked out each time and how many pounds lifted cummutively. 
 
   ## Gif 
 
