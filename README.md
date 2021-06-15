@@ -26,7 +26,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
   ## Gif 
 
-  ![gif]()
+  ![gif](/video/Fitness-Tracker.gif)
   
   ## Support
   
